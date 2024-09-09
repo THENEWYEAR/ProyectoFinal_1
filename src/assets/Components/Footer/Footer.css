@@ -1,0 +1,128 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sb__footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sb__footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.sb__footer-links_div {
+    flex: 1;
+    min-width: 150px;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: rgb(175, 175, 179);
+    text-decoration: none;
+}
+
+.sb__footer-links_div h4 {
+    font-size: 14px;
+    margin-bottom: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sb__footer-links_div p {
+    font-size: 12px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sb__footer-below {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.sb__footer-below p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    width: 100%;
+}
+
+.sb__footer-copyright p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 850px) {
+    .sb__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sb__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .sb__footer-links_div {
+        margin: 1rem 0;
+    }
+
+    .sb__footer-below {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sb__footer-below p {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sb__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .sb__footer-links {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sb__footer-links_div {
+        margin: 1rem 0;
+    }
+}
+
+.header-logo {
+    max-width: 70px;
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
