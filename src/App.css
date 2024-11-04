@@ -1,0 +1,13 @@
+.h1 {
+    font-family: "Poppins", sans-serif;
+}
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 16px;
+}
+
+
+

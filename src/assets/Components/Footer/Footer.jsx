@@ -12,9 +12,9 @@ const Footer=()=>{
                 <hr></hr>
                 <div className="sb__footer-below">
                     <div className="sb__footer-copyrigth">
-                        <div className="Footer-logo"><img src="src/assets/Images/generico2.png" alt="logo"/></div>
+                        <div className="Footer-logo"></div>
                         <p>
-                        @{new Date().getFullYear()} Código int. Todos los derechos reservados
+                             @{new Date().getFullYear()} Código int. Todos los derechos reservados
                         </p>
                     </div>
                     <div className="sb__footer-below-links">

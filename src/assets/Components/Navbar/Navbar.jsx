@@ -11,10 +11,12 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className="navbar-logo"><img src="src/assets/Images/4.png" alt="logo"/></div>
+            <img src="src/Images/generico2.png" alt="logo"/>
+            <div className="navbar-logo"></div>
+            <h1 className="Til">TecnoDescuentos</h1>
             <div className={`navbar-links ${isOpen ? "open" : ""}`}>
                 <a href="">Inicio</a>
-                <a href="">Nosotros</a>
+                <a href="">Shop</a>
                 <a href="">Servicios</a>
                 <a href="">Contacto</a>
             </div>
