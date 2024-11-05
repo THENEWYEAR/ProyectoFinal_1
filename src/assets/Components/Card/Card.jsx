@@ -1,7 +1,7 @@
 import React from 'react';
-import './Card.css'; // Archivo CSS opcional para estilizar la tarjeta
+import './Card.css';
 
-function Card({ image, title, description, buttonText }) {
+function Card({ img, Title, Description, ButtonText }) {
     return (
         <div className="card">
             <img src={image} alt={title} className="card-image" />
@@ -11,8 +11,6 @@ function Card({ image, title, description, buttonText }) {
                 <button className="card-button">{buttonText}</button>
             </div>
         </div>
-
-
     );
 }
 

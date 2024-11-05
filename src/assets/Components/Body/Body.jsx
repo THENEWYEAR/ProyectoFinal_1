@@ -7,21 +7,24 @@ const Body =()=>{
     return(
         <div className="body-div">
             <Titulos/>
-            <div className="app">
+            <div className="cards-container">
                 <Card
-                    title="Ram de 16GB DD"
-                    content="This is some example content for the card."
-                    image="https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-3200Mhz-DDR4-CL16-Kingston-Fury-Beast-Black_Yjr9Urm.webp"
+                    image="https://www.winpy.cl/files/w24684_kingston_fury_beast_rgb_2.jpg"
+                    title="FURY Beast DDR4 RGB de Kingston"
+                    description="Kingston FURY Beast DDR4 RGB ofrece un impulso de rendimiento y estilo con velocidades de hasta 3733MHz, estilo agresivo e iluminación RGB que se extiende a lo largo del módulo para obtener efectos suaves y sorprendentes."
+                    buttonText="Comprar"
                 />
                 <Card
-                    title="LG UltraGear 48Gq900 48- Negro - 110/220V"
-                    content="Here is some more example content."
-                    image="https://http2.mlstatic.com/D_NQ_NP_671257-MLU72479028759_102023-O.webp"
+                    image="https://s3.amazonaws.com/w3.assets/fotos/27436/1._300.webp"
+                    title="Fuente de Poder Gamemax VP-350-RGB 350W  "
+                    description="La fuente de alimentación de la serie GameMax VP ofrece el esquema de Valor y rendimiento. 80Plus listo para soporte requiere alta eficiencia, también continúa siendo popular para compilaciones de computadoras."
+                    buttonText="Comprar"
                 />
                 <Card
-                    title="Fuente de Poder Corsair CX750F RGB 750W"
-                    content="Las fuentes de alimentación totalmente modulares CORSAIR CX-750F RGB Series ofrecen una potencia eficiente 80 PLUS Bronze fiable a su sistema, así como una iluminación viva y personalizable a partir de un ventilador RGB de 120 mm y con una estética limpia."
-                    image="https://cdn3.spider.cl/19139-large_default/fuente-de-poder-corsair-cx750f-rgb-750w-certgold-blanca.jpg"
+                    image="https://http2.mlstatic.com/D_NQ_650777-MLA80194089535_102024-V.webp"
+                    title="Monitor Gamer 27 Fhd Ips Pivote 90 180hz 1ms Master-G"
+                    description="Gracias a la rápida tasa de refresco de 180Hz y el rápido tiempo de respuesta de 1ms, tus juegos serán más fluidos que nunca."
+                    buttonText="Comprar"
                 />
             </div>
         </div>
