@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './Card.css';
 
+// eslint-disable-next-line react/prop-types
 function Card({ image, title, description, buttonText }) {
     return (
         <div className="card">
